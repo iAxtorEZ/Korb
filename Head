@@ -1,14 +1,14 @@
 local args = {
     [1] = "CharacterChange",
     [2] = {
-        [1] = 27112025, -- Torso
-        [2] = 27112039, -- Right Leg
-        [3] = 27112052, -- Left Leg
-        [4] = 139607718, -- Right Arm
-        [5] = 139607673, -- Left Arm
-        [6] = 12726967427 -- Head
+        [1] = 27112025,
+        [2] = 139607718,
+        [3] = 139607673,
+        [4] = 27112039,
+        [5] = 27112052,
+        [6] = 134082579
     },
-    [3] = "Roblox20"
+    [3] = "AllBlocky"
 }
 
 game:GetService("ReplicatedStorage"):WaitForChild("RE"):WaitForChild("1Avata1rOrigina1l"):FireServer(unpack(args))
